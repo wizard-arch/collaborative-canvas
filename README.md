@@ -41,9 +41,14 @@ http://localhost:3000
 - All drawings are lost when the server restarts (stored in memory only)
 - Might lag if too many users are drawing at the same time
 
-## Time Spent
+### Time Spent
+Total: ~18 hours  
+- Setup and architecture planning: 3 hours  
+- Canvas drawing implementation: 5 hours  
+- WebSocket integration and real-time sync: 4 hours  
+- Undo/Redo + state sync: 3 hours  
+- Testing, debugging, and documentation: 3 hours
 
-Worked on this for about 3 days. Most time was spent figuring out how websockets work and getting the canvas coordinates right.
 
 ## References
 
